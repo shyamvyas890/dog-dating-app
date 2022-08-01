@@ -1,0 +1,112 @@
+#top-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    width:550px;
+    height:81px;
+}
+#bottom-bar{
+    width:550px;
+    height:892px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    margin:auto;
+}
+
+#like-badge{
+    display:none;
+    position:absolute;
+    top:135px;
+    transform: rotate(-30deg);
+    width:234px;
+    height:116px;
+}
+
+#dislike-badge{
+    display:none;
+    position:absolute;
+    top:135px;
+    transform: rotate(-30deg);
+    width:234px;
+    height:116px;
+    
+}
+
+#image-section{
+    width:550px;
+    height:750px;
+    background-image:url("images/dog-rex.jpg");
+    border-radius:15px;
+    background-size:550px;
+    background-position:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    display:flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.info{
+    font-family: 'Poppins', sans-serif;
+    margin-left:12px;
+    margin-bottom:16px;
+}
+.intro{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F8F8F8;
+}
+
+.bio{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B7B7B7;
+}
+
+#button-section{
+    display:flex;
+    flex-direction:row;
+    height:141px;
+    justify-content: center;
+    margin-top:25px;
+}
+
+button{
+    height:92px;
+    width:92px;
+    border-radius:50%;
+    border:none;
+    background-color:#fff;
+    margin-top:0px;
+    padding-top:0;
+}
+
+.topbar{
+    width:41.21px;
+    height:41.21px;
+}
+.paw{
+    width:84px;
+    height:42px;
+}
+.chat{
+    height:34px;
+    width:34px;
+}
+
+#b1{
+    margin-right:12px;
+}
+
+#b2{
+    margin-left:12px;
+}

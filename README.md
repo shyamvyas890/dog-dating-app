@@ -1,0 +1,1 @@
+This is a dating app for dogs. Whether you click like or dislike on a dog, it will store the information in the internal data.
